@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Samer, SOC Analyst / Detection Engineer</title>
+  <desc id="dsc">Terminal-style banner: whoami, the name Samer, the role, a detection alert log line, and an event graph with one spike.</desc>
+
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#39ff88" fill-opacity=".045"/>
+    </pattern>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="798" height="318" rx="14" fill="#070d0a" stroke="#1a3627"/>
+  <path d="M1 44 V15 A14 14 0 0 1 15 1 H785 A14 14 0 0 1 799 15 V44 Z" fill="#0b1510"/>
+  <line x1="1" y1="44" x2="799" y2="44" stroke="#163024"/>
+  <circle cx="26" cy="23" r="5.5" fill="#ff5f6d"/>
+  <circle cx="46" cy="23" r="5.5" fill="#ffb454"/>
+  <circle cx="66" cy="23" r="5.5" fill="#39ff88"/>
+  <text x="400" y="28" text-anchor="middle" font-size="13" fill="#5b8069">samer@soc-lab: ~/detections</text>
+
+  <!-- whoami -->
+  <text x="46" y="92" font-size="20" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">
+    <tspan fill="#39ff88">$</tspan>
+    <tspan fill="#b7d4c3"> whoami</tspan>
+  </text>
+
+  <!-- name -->
+  <g font-size="64" font-weight="700" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">
+    <text x="42" y="166" fill="#00e5ff" fill-opacity=".6">Samer</text>
+    <text x="46" y="166" fill="#ff2e63" fill-opacity=".6">Samer</text>
+    <text x="44" y="166" fill="#eafff2">Samer</text>
+  </g>
+
+  <!-- role -->
+  <text x="44" y="206" font-size="24" fill="#39ff88" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">SOC Analyst / Detection Engineer</text>
+
+  <!-- alert log line -->
+  <text x="46" y="254" font-size="16" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">
+    <tspan fill="#ff4d5e" font-weight="700">[ALERT]</tspan>
+    <tspan fill="#8fb3a0"> T1059.001 PowerShell encoded command detected</tspan>
+  </text>
+
+  <!-- prompt + cursor -->
+  <text x="46" y="288" font-size="20" fill="#39ff88" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">$</text>
+  <rect x="70" y="271" width="12" height="22" fill="#39ff88"/>
+
+  <!-- event graph -->
+  <text x="540" y="84" font-size="12" fill="#4f7a63" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">events/min</text>
+  <line x1="540" y1="214" x2="760" y2="214" stroke="#1b3326"/>
+  <line x1="540" y1="132" x2="760" y2="132" stroke="#ffb454" stroke-opacity=".55" stroke-dasharray="4 4"/>
+  <text x="760" y="125" font-size="11" text-anchor="end" fill="#ffb454" fill-opacity=".8" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">threshold</text>
+
+  <polyline points="548,198 562,190 576,201 590,193 604,203 618,192 632,199 644,188 652,150 660,96 668,158 676,194 690,201 704,192 718,204 732,195 746,202 758,194"
+            fill="none" stroke="#39ff88" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <circle cx="660" cy="96" r="9" fill="none" stroke="#ff4d5e" stroke-opacity=".4"/>
+  <circle cx="660" cy="96" r="4.5" fill="#ff4d5e"/>
+  <text x="674" y="100" font-size="12" fill="#ff4d5e" font-family="JetBrains Mono,Fira Code,SF Mono,Menlo,Consolas,DejaVu Sans Mono,Courier New,monospace">T1059.001</text>
+
+  <!-- scanlines -->
+  <rect x="1" y="1" width="798" height="318" rx="14" fill="url(#scan)"/>
+</svg>
