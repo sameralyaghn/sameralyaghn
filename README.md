@@ -28,5 +28,3 @@ _Repos land here as I build them._
 ![Splunk](https://img.shields.io/badge/Splunk-0a0f0d?style=flat-square&logo=splunk&logoColor=39ff88) ![Elastic Stack](https://img.shields.io/badge/Elastic_Stack-0a0f0d?style=flat-square&logo=elastic&logoColor=39ff88) ![Kali Linux](https://img.shields.io/badge/Kali_Linux-0a0f0d?style=flat-square&logo=kalilinux&logoColor=39ff88) ![VirtualBox](https://img.shields.io/badge/VirtualBox-0a0f0d?style=flat-square&logo=virtualbox&logoColor=39ff88)
 
 Training grounds: TryHackMe, TCM Security, LetsDefend, Blue Team Labs Online
-
-](https://www.linkedin.com/in/YOUR-HANDLE)
